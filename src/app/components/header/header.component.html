@@ -1,0 +1,14 @@
+<header id="appheader" *ngIf="appReady">
+  <app-icon
+    class="menuicon"
+    [styles]="styles?.iconDefault"
+    (onClick)="changeMenu($event)"
+    [svgId]="menuIconName"
+    [buttonMode]="menuButtonMode"
+  ></app-icon>
+  <div class="logo">
+    ANGULAR<small
+      ><small><small>maubrsp</small></small></small
+    >
+  </div>
+</header>

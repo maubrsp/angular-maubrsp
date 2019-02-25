@@ -1,0 +1,6 @@
+<div class="button-configurable" [routerLink]="routerLinkPath">
+  <div>{{ text }}</div>
+  <svg [style.fill]="iconColor">
+    <use attr.xlink:href="{{ iconSvg }}"></use>
+  </svg>
+</div>

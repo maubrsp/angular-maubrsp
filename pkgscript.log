@@ -1,0 +1,62 @@
+2019-02-21 08:14:11.496  
+
+************ Package Script  ************************************* process id: 2196
+2019-02-21 08:14:12.726  CAT Installer: 
+> angular-maubrsp@0.0.0 build C:\workspace\srcs
+> ng build
+
+
+2019-02-21 08:14:31.741  CAT Installer: 
+Date: 2019-02-21T11:14:31.739Z
+Hash: 6cc04d047065d4cafcd5
+Time: 10147ms
+chunk {es2015-polyfills} es2015-polyfills.js, es2015-polyfills.js.map (es2015-polyfills) 284 kB [initial] [rendered]
+chunk {main} main.js, main.js.map (main) 131 kB [initial] [rendered]
+chunk {polyfills} polyfills.js, polyfills.js.map (polyfills) 493 kB [initial] [rendered]
+chunk {runtime} runtime.js, runtime.js.map (runtime) 6.08 kB [entry] [rendered]
+chunk {styles} styles.js, styles.js.map (styles) 19.8 kB [initial] [rendered]
+chunk {vendor} vendor.js, vendor.js.map (vendor) 3.84 MB [initial] [rendered]
+2019-02-21 08:14:31.742  CAT Installer: 
+
+2019-02-21 08:14:31.841  Package Script Complete 0
+2019-02-21 08:14:31.842  [package-script] process completed, see pkgscript.log for more information
+2019-02-21 08:15:14.484  
+
+************ Package Script  ************************************* process id: 6944
+2019-02-21 08:15:15.734  CAT Installer: 
+> angular-maubrsp@0.0.0 start C:\workspace\srcs
+> ng serve
+
+
+2019-02-21 08:15:20.550  CAT Installer: ** Angular Live Development Server is listening on localhost:4200, open your browser on http://localhost:4200/ **
+2019-02-21 08:15:20.550  CAT Installer: 
+
+2019-02-21 08:15:31.120  CAT Installer: 
+Date: 2019-02-21T11:15:31.118Z
+Hash: c2d3d19eda17fa31d44b
+Time: 10430ms
+chunk {es2015-polyfills} es2015-polyfills.js, es2015-polyfills.js.map (es2015-polyfills) 284 kB [initial] [rendered]
+chunk {main} main.js, main.js.map (main) 132 kB [initial] [rendered]
+chunk {polyfills} polyfills.js, polyfills.js.map (polyfills) 493 kB [initial] [rendered]
+chunk {runtime} runtime.js, runtime.js.map (runtime) 6.08 kB [entry] [rendered]
+chunk {styles} styles.js, styles.js.map (styles) 19.8 kB [initial] [rendered]
+chunk {vendor} vendor.js, vendor.js.map (vendor) 4.16 MB [initial] [rendered]
+
+2019-02-21 08:15:31.145  CAT Installer: [34mi[39m [90m｢wdm｣[39m: Compiled successfully.
+
+2019-02-21 08:15:52.164  CAT Installer: [34mi[39m [90m｢wdm｣[39m: Compiling...
+
+2019-02-21 08:15:52.554  CAT Installer: 
+Date: 2019-02-21T11:15:52.553Z - Hash: c2d3d19eda17fa31d44b - Time: 152ms
+6 unchanged chunks
+
+2019-02-21 08:15:52.570  CAT Installer: [34mi[39m [90m｢wdm｣[39m: Compiled successfully.
+
+2019-02-21 21:32:19.759  
+
+************ Package Script  ************************************* process id: 16886
+2019-02-21 21:32:19.911  Package Script : #node-sudo-passwd#
+2019-02-21 21:32:27.182  Package Script : sudo: npm run start: command not found
+
+2019-02-21 21:32:27.183  Package Script Complete 1
+2019-02-21 21:32:27.184  [package-script] process completed, see pkgscript.log for more information

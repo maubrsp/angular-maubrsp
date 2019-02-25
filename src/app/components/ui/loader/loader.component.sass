@@ -1,0 +1,30 @@
+@import './../../../../fixes.sass'
+
+
+#testloader
+    opacity: 0
+
+.preloader
+                width: 100px
+                height: 100px
+                position: fixed
+                top: 50%
+                left: 50%
+                transform: translate(-50%,-50%)
+                border-radius: 30%
+                overflow: hidden
+                z-index: 1000
+
+                .bg
+                        width: 200px
+                        height: 200px
+                        position: absolute
+                        background-image: repeating-linear-gradient(45deg, $color1, $color2 20px, transparent 0, transparent 40px);
+                        animation: move-preloader 0.5s infinite
+
+
+@keyframes move-preloader
+        0%
+                -webkit-transform: translateY(0px)
+        100%
+                -webkit-transform: translateY(-52px)

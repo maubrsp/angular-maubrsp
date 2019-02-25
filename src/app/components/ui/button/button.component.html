@@ -1,0 +1,24 @@
+<div
+  class="button"
+  [style.width.px]="currentStyles?.width"
+  [style.height.px]="currentStyles?.height"
+  [style.line-height.px]="currentStyles?.height"
+  [style.border-radius.px]="currentStyles?.borderRadius"
+  [style.padding-left.px]="currentStyles?.horizontalPadding"
+  [style.padding-right.px]="currentStyles?.horizontalPadding"
+  [style.background-color]="currentStyles?.backgroundColor"
+  [style.border-color]="currentStyles?.borderColor"
+  [style.border-style]="currentStyles?.borderStyle"
+  [style.border-width.px]="currentStyles?.borderWidth"
+  [style.color]="currentStyles?.textColor"
+  [style.font-size.px]="currentStyles?.fontSize"
+  [style.font-weight.px]="currentStyles?.textWeight"
+  (mouseover)="mouseOverHandler($event)"
+  (mouseout)="mouseOutHandler($event)"
+  (click)="mouseClickHandler($event)"
+>
+  {{ text }}
+  <svg *ngIf="svgId !== null" [style.fill]="currentStyles?.textColor">
+    <use attr.xlink:href="{{ svgId }}"></use>
+  </svg>
+</div>

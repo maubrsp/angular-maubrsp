@@ -1,0 +1,13 @@
+{
+  "mode": {
+    "symbol": {
+      "render": {
+        "css": "false",
+        "scss": "false"
+      },
+      "dest": "src/assets/images/",
+      "prefix": ".svg--%s",
+      "sprite": "sprite.svg"
+    }
+  }
+}

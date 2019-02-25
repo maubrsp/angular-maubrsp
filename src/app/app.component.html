@@ -1,0 +1,22 @@
+<main>
+  <app-content
+    [showPage]="data?.applicationParams?.showPage"
+    [showMenu]="data?.applicationParams?.showMenu"
+  ></app-content>
+  <app-header
+    (menuChange)="menuChange($event)"
+    [showMenu]="data?.applicationParams?.showMenu"
+    [appReady]="data?.applicationParams?.appReady"
+    [styles]="data?.styleguide"
+  ></app-header>
+  <app-menu
+    [menu]="data?.routes"
+    [list]="data?.defaultData?.list"
+    [showMenu]="data?.applicationParams?.showMenu"
+  ></app-menu>
+  <app-loader
+    [loading]="data?.applicationParams?.loading"
+    [loaderId]="loaderId"
+    (loadEnd)="loaderFinishHandler($event)"
+  ></app-loader>
+</main>

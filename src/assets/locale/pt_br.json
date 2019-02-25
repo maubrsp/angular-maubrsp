@@ -1,0 +1,99 @@
+{
+  "GLOBAIS": {
+    "ABERTURACADASTRO": "Data Abertura do Cadastro",
+    "ACAO": "Ação",
+    "ADICIONAR": "Adicionar",
+    "ATIVO": "Ativo",
+    "AVENCER": "a Vencer",
+    "CEP": "CEP",
+    "CELULAR": "Celular",
+    "COMERCIAL": "Comercial",
+    "COMPLEMENTO": "Complemento",
+    "CNPJ": "CNPJ",
+    "CPF": "CPF",
+    "CPFCNPJ": "CPF / CNPJ",
+    "DATACONTRATO": "Data Contrato",
+    "DATAFIM": "Data Fim",
+    "DESTINATARIOS": "destinatários",
+    "DIGITEAQUI": "Digite aqui...",
+    "EMAIL": "E-mail",
+    "EDITAR": "Editar",
+    "INSCRICAOMUNICIPAL": "Inscrição Municipal",
+    "INATIVO": "Inativo",
+    "FIXO": "Fixo",
+    "LOGO": "#logo-full",
+    "LOGRADOURO": "Logradouro",
+    "NAO": "Não",
+    "NOMERAZAOSOCIAL": "Nome / Razão Social",
+    "NOME": "Nome",
+    "NUMERO": "Número",
+    "PAGINA": "Página",
+    "PAGETITLE": "DT-e Auditor",
+    "PESSOAFISICA": "Pessoa Física",
+    "PESSOAJURIDICA": "Pessoa Juridica",
+    "PRAZOS": "Prazos",
+    "RAZAOSICIAL": "Razão Social",
+    "SITUACAO": "Situação",
+    "SEMRESULTADO": "Nenhum resultado disponível",
+    "SEMVALIDACAO": "Sem validação",
+    "SENHA": "Senha",
+    "SIM": "sim",
+    "TELEFONE": "Telefone",
+    "TIPOUSUARIO": "Tipo de Usuário",
+    "TITULO": "Auditor",
+    "USUARIO": "Usuário",
+    "VENCIDOS": "Vencidos"
+  },
+  "CAIXAPOSTAL": {
+    "ENVIAR": {
+      "ENVIATODOS": "Deseja enviar para todos os contribuintes ativos?"
+    },
+    "ARQUIVOS": {
+      "ANEXARARQUIVOS": "Anexar Arquivos"
+    }
+  },
+  "CONFIGURACOES": {
+    "USUARIOS": {
+      "ALTERARFOTO": "Alterar foto",
+      "TITULOCONSULTAR": "Gerenciar Usuários",
+      "TITULOEDITAR": "Editar Usuário",
+      "INSERIRNOVO": "Inserir novo usuário",
+      "GRAFICOACESSOS": "Distribuição por perfil de acesso no mês",
+      "GRAFICOPERFIL": "Distribuição por perfil de usuário",
+      "GRAFICOPROCURACOES": "Tipos de Procurações",
+      "GRAFICOSITUACOES": "Situação cadastral de usuários",
+      "BTN_INSERIRNOVO": "Inserir novo usuário",
+      "PASTAALFRESCO": "Pasta de Documentos do Alfresco",
+      "CRIOUSENHA": "Criou Senha"
+    },
+    "APLICACOES": {
+      "CONFIGURACAOEXCLUSIVA": "Configuração Exclusiva para Plataforma DT-e",
+      "ENDERECOKONG": "Endereço do endpoint no Kong para chamadas do DT-e Integrador",
+      "DISPONIBILIZARSERVICOS": {
+        "TITULO": "Disponibilizar como serviço no ambiente DT-e?",
+        "OPCAO1": "Não, este aplicativo apenas tramita comunicado",
+        "OPCAO2": "Sim, como serviço no portal DT-e",
+        "OPCAO3": "Sim, como serviço no DT-e Auditor",
+        "OPCAO4": "Sim, como serviço no portal DT-e e no DT-e Auditor"
+      },
+      "NOMEAMIGAVEL": "Nome amigável para apresentar como serviço no ambiente DT-e",
+      "BREVEDESCRITIVO": "Breve descritivo que será apresentado no ambiente DT-e"
+    },
+    "AMBIENTES": {
+      "CODIGOSERVICOSMS": "Código do Serviço de SMS",
+      "CONTASERVICOSMS": "Conta do Serviço de SMS",
+      "ENDPOINTSERVICOSMS": "Endpoint do Serviço de SMS",
+      "FORMAATIVACAOUSUARIO": "Forma de ativação de usuário",
+      "LOGOTIPO": "Logotipo",
+      "PORTA": "Porta",
+      "SERVIDOR": "Servidor",
+      "SMTP": "SMTP",
+      "URLPORTAL": "URL para acesso ao portal DT-e",
+      "URLAUDITOR": "URL para acesso ao portal DT-e Auditor",
+      "URLALFRESCO": "Endereço url Alfresco",
+      "PASTAALFRESCO": "Pasta Alfresco",
+      "USUARIOESCRITAALFRESCO": "Usuário de Escrita Alfresco",
+      "USUARIOSENHAALFRESCO": "Senha de Escrita Alfresco"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+<div class="header_categories">
+  <label (click)="onCategoryClick($event)">
+    <span>{{ selectedCategoryName || placeHolder }}</span>
+    <ul
+      *ngIf="showSelector"
+      (clickOutside)="showSelector == true ? onBodyClick($event) : null"
+    >
+      <li *ngFor="let iten of list" (click)="onCategoryChange(iten)">
+        {{ iten.label }}
+      </li>
+    </ul>
+  </label>
+</div>

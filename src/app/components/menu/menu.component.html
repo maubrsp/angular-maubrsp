@@ -1,0 +1,19 @@
+<nav id="sidemenu">
+  <div class="user">
+    <svg [style.fill]="iconColor">
+      <use attr.xlink:href="{{ iconSvg }}"></use>
+    </svg>
+  </div>
+
+  <app-dropdown [list]="list"></app-dropdown>
+
+  <ul>
+    <li *ngFor="let iten of menu">
+      <app-menubuton
+        *ngIf="iten.data && iten.data.menu"
+        [text]="iten.data.menuLabel"
+        [routerLinkPath]="iten.path"
+      ></app-menubuton>
+    </li>
+  </ul>
+</nav>

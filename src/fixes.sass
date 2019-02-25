@@ -1,0 +1,53 @@
+
+$bg: #ffffff
+$color1: #eeeeee
+$color2: #cccccc
+$color3: #868686
+$headerHeight: 4em
+$paddingButtons: 0.7em
+$borderButtons: 4px
+$searchWidth: 18em
+
+@mixin makeBoxWhitShadow()
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2)
+    border-radius: $borderButtons
+                
+@mixin iconArrowAfter( $size , $rightMargin )
+        position: relative
+        &:after
+                        margin: 0px
+                        padding: 0px
+                        position: absolute
+                        content: ""
+                        right: $rightMargin
+                        width: $size
+                        height: $size
+                        top: $paddingButtons*0.99
+                        transform: rotate(45deg)
+                        border-style: solid
+                 
+@mixin respond-to($breakpoint , $width) 
+  @if $breakpoint == 320 
+    @media (min-width: 320px) 
+      width: $width
+  @else if $breakpoint == 768 
+    @media (min-width: 520px) 
+      width: $width
+  @else if $breakpoint == 1024 
+    @media (min-width: 1200px) 
+      width: $width
+    
+@mixin vertical-align() 
+  position: relative
+  top: 50%
+  -webkit-transform: translateY(-50%)
+  -ms-transform: translateY(-50%)
+  transform: translateY(-50%)
+    
+@mixin horizontal-align() 
+  position: relative
+  left: 50%
+  // margin-left: -50%
+  -webkit-transform: translateX(-50%)
+  -ms-transform: translateX(-50%)
+  transform: translateX(-50%)
