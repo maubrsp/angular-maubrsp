@@ -1,8 +1,8 @@
-### Lista de Features
+#ANGULAR
 
 - acesse (https://angular-maubrsp.netlify.com)
 
-# Instalation
+## Instalation
 
 - get node.js (https://nodejs.org)
 - get the source and run [ npm|yarn install ] in local folder
@@ -11,7 +11,7 @@
 $ npm install
 ```
 
-# Develop
+## Develop
 
 - set local or remote resources [todo: add env params]
 - run [ npm run start ]
@@ -23,12 +23,12 @@ $ npm install
 $ npm run start
 ```
 
-# Code Anime
+## Code Anime
 
 - use anime.js to dom, css, props and svg animation
 - Dont use the pratices in this sample config animes, its all overhead for test purposes
 
-# Breakpoints
+## Breakpoints
 
 - 320
 - 768 < adjust to change after 520px for better landscape use
